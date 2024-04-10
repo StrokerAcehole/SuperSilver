@@ -1184,7 +1184,7 @@ PlaceMoveData:
 	hlcoord 0, 11
 	ld de, String_MoveType_Bottom
 	call PlaceString
-	hlcoord 11, 12
+	hlcoord 12, 12
 	ld de, String_MoveAtk
 	call PlaceString
 	ld a, [wCurSpecies]
@@ -1231,7 +1231,7 @@ String_MoveType_Top:
 String_MoveType_Bottom:
 	db "│        └@"
 String_MoveAtk:
-	db "ATTK/@"
+	db "ATK/@"
 String_MoveNoPower:
 	db "---@"
 
